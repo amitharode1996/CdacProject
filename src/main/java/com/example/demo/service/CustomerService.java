@@ -142,6 +142,7 @@ public class CustomerService {
 		return s;
 	}
 	
+	@SuppressWarnings("deprecation")
 	public Customer getOneUsingCid(int cid)
 	{
 		return crepo.getOne(cid);
